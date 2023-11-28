@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+
+.layout::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #1f22218d;
+}
+
+nav {
+    z-index: 9999;
+}
+
+nav .nav-link,
+.navbar-brand,
+.nav-item .btn {
+    color: beige;
+    font-size: 1.5rem;
+}
+
+nav .nav-link:hover,
+.navbar-brand:hover {
+    color: beige;
+}
+
+.navbar-brand {
+    font-family: 'Yellowtail', cursive;
+    font-size: 4rem;
+}
+
+
+.image-back {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.container-fluid {
+    background-color: #551414;
+}
+
+.seeMore {
+    border: 2px solid #fff;
+}
+
+/* Footer Css */
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+
